@@ -1,0 +1,46 @@
+/**:
+  ros__parameters:
+    joint_limits:
+      torso_lift_joint:
+        has_position_limits: true
+        min_position: -0.0010
+        max_position: 0.35
+        has_velocity_limits: true
+        max_velocity: 0.07
+        has_acceleration_limits: true
+        max_acceleration: 0.5
+      arm_left_1_joint:
+        has_velocity_limits: true
+        max_velocity: 1.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
+      arm_left_2_joint:
+        has_velocity_limits: true
+        max_velocity: 1.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
+      arm_left_3_joint:
+        has_velocity_limits: true
+        max_velocity: 3.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
+      arm_left_4_joint:
+        has_velocity_limits: true
+        max_velocity: 3.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
+      arm_left_5_joint:
+        has_velocity_limits: true
+        max_velocity: 3.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
+      arm_left_6_joint:
+        has_velocity_limits: true
+        max_velocity: 3.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
+      arm_left_7_joint:
+        has_velocity_limits: true
+        max_velocity: 3.95
+        has_acceleration_limits: true
+        max_acceleration: 2.0
